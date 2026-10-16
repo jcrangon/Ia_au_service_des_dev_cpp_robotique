@@ -1,0 +1,12 @@
+Audite notre système d'IA C++ plutôt que notre code C++ :
+- Instructions et priorité des sources.
+- Agents et outils autorisés.
+- Modèles réellement disponibles et crédits.
+- Skills, scripts et références.
+- Plugins installés et provenances.
+- MCP, source de vérité, versions et journalisation.
+- GitHub Actions, PR, revues et séparation des rôles.
+
+Pour chaque risque : preuve / impact / vraisemblance / vérification /
+correction / responsable / statut. Identifie les règles contradictions.
+N'exécute aucune action destructive. Refuse toute conformité non démontrée.

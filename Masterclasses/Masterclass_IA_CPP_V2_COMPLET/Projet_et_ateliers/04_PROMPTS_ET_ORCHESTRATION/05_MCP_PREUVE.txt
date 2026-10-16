@@ -1,0 +1,5 @@
+Appelle réellement l'outil MCP `industrial-rules/get_requirement` pour REQ-03.
+Le texte de l'exigence n'est PAS une preuve d'appel : conserve `event_id`,
+`sha256`, `spec_version` et l'outil exact. Après la réponse, le formateur
+comparera ton event_id avec `mcp/tool-audit.log` et l'empreinte locale.
+Si l'outil est indisponible, dis « NON APPELÉ » ; ne le simule jamais.

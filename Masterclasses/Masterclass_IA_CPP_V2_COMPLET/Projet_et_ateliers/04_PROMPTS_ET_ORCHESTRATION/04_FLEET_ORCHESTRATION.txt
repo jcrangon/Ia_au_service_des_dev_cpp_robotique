@@ -1,0 +1,13 @@
+Orchestre la mise en conformité IndustrialMonitor.
+Commence par un plan : tâches indépendantes, dépendances, agents disponibles.
+- Architecte : contrat et choix de conception, sans modification.
+- Testeur : tests dérivés indépendamment des exigences.
+- Implémenteur : code seulement après validation de l'architecture.
+- Auditeur : analyse indépendante des risques.
+- Arbitre : décision uniquement sur des preuves.
+
+Utilise /fleet si disponible, mais ne prétends pas que cinq sous-agents ont
+travaillé si ce n'est pas réellement observable. Inspecte /tasks.
+Ne modifie pas le même fichier simultanément depuis deux worktrees.
+Ne commit pas ni ne push.
+Rapporte quels agents ont VRAIMENT travaillé, avec modèle réel si disponible.

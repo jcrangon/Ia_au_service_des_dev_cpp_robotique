@@ -1,0 +1,10 @@
+Pour cette correction IndustrialMonitor, procéder par étapes vérifiables.
+A. Invoquer le skill cpp-criticality-audit, avec la politique docs/criticality.md.
+B. Invoquer cpp-test-design, en imposant les frontières et Invalid/recovery.
+C. Invoquer cpp-build-proof ; demander la permission de lancer le shell ;
+   rapporter les vrais résultats de compilation et CTest.
+D. Invoquer cpp-solution-arbitration uniquement avec les résultats réels.
+
+Après chaque phase : donner le skill effectivement utilisé et les preuves.
+Si l'un manque, arrêter ou le signaler, sans inventer un résultat.
+Ne fusionne jamais une PR sans revue humaine.

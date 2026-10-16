@@ -1,0 +1,12 @@
+CHALLENGE IM-011 — ajouter la nouvelle exigence :
+« Une température finie strictement inférieure à -273,15 °C est Invalid.
+L'égalité -273,15 °C est acceptée au regard de cette seule contrainte. »
+
+1. Analyse l'impact sur la fonction pure et la machine à états.
+2. Mets à jour le contrat versionné, sans changer les autres exigences.
+3. Propose la modification minimale.
+4. Teste nextafter(-273.15, ±INFINITY), -273.15 exact, NaN, vieillissement.
+5. Prouve compilation et tests réels.
+6. Interroge le MCP pour REQ-11 : si UNKNOWN, signale l'incohérence.
+7. Demande au skill de criticité un avis argumenté, non une certification.
+8. Prépare une PR mais ne fusionne pas et ne push pas automatiquement.

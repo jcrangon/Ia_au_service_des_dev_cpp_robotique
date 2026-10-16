@@ -1,0 +1,9 @@
+{
+  "name": "industrial-review",
+  "version": "1.0.0",
+  "description": "Revue de PR C++ orientée exigences, risques et preuves",
+  "agents": "agents/",
+  "skills": [
+    "skills/"
+  ]
+}

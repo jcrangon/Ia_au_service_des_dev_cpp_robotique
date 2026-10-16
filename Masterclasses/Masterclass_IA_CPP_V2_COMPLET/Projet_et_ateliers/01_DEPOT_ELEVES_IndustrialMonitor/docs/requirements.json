@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "notes": "Référence pédagogique structurée pour le serveur MCP ; faire évoluer avec le contrat Markdown.",
+  "requirements": {
+    "REQ-01": "Valid T < warning_enter: Normal",
+    "REQ-02": "Valid warning_enter <= T < critical_enter: Warning",
+    "REQ-03": "Valid T >= critical_enter: Critical",
+    "REQ-04": "Non-finite temperature: Invalid",
+    "REQ-05": "Sensor failure: Invalid",
+    "REQ-06": "Negative or stale age: Invalid",
+    "REQ-07": "Reject inconsistent threshold configuration",
+    "REQ-08": "Stateful monitoring applies hysteresis",
+    "REQ-09": "Two consecutive valid samples required after Invalid",
+    "REQ-10": "Instantaneous classification has no side effects"
+  }
+}

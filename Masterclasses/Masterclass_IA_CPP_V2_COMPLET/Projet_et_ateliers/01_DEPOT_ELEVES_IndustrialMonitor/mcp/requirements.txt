@@ -1,0 +1,4 @@
+# Laisser volontairement les dépendances minimales pour le TP.
+# Pour un déploiement réel : figer versions ET empreintes approuvées.
+mcp[cli]>=1.10,<2
+PyYAML>=6,<7

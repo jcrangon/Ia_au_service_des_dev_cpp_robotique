@@ -1,0 +1,20 @@
+MISSION IDENTIQUE POUR DEUX MODÈLES — IndustrialMonitor
+
+État initial : même commit, mêmes exigences dans `docs/requirements.md`.
+Implémente REQ-01 à REQ-10 en respectant C++20 et les interfaces du dépôt.
+
+Travaille dans ton worktree uniquement, sans consulter l'autre candidat.
+Ne modifie pas la spécification pour faire passer les tests.
+Le testeur indépendant utilisera un banc d'évaluation inconnu de toi.
+
+1. Examiner les exigences et produire un plan.
+2. Proposer une architecture justifiée.
+3. Implémenter validation des entrées et machine à états avec hystérésis.
+4. Ajouter des tests pertinents sans modifier les attendus existants.
+5. Compiler et lancer CTest ; rapporter résultats effectivement observés.
+6. Indiquer les lacunes, hypothèses et compromis.
+
+INTERDICTIONS : pas de push, pas de commit, pas de lecture d'un autre
+worktree, pas d'installation de dépendances externes sans autorisation.
+
+SORTIE : diff résumé | exigences | tests exécutés | échecs | risques.

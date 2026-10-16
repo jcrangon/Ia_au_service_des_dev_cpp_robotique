@@ -1,0 +1,17 @@
+# Artefacts de compilation (ne jamais les versionner).
+build/
+build-*/
+cmake-build-*/
+compile_commands.json
+# Fichiers locaux IDE / Python / journalisation.
+.idea/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+.env
+.env.*
+# Résultats potentiellement sensibles / dépendants de la machine.
+reports/generated/
+evaluation/results/
